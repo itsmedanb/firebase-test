@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>test firebase</title>
+</head>
+<body>
+    <h1>getting started with firebase</h1>
+
+    <h2>firebase firestore</h2>
+
+    <form class="add">
+        <label for="name">Name:</label>
+        <input type="text" name="name" required>
+        <label for="age">Age:</label>
+        <input type="text" name="age" required>
+
+        <button>Add a person</button>
+    </form>
+
+    <form class="delete">
+        <label for="id">document id:</label>
+        <input type="text" name="id" required>
+
+        <button>delete a person</button>
+    </form>
+
+    <div class="people-list"></div>
+
+
+
+    <script src="bundle.js"></script>
+</body>
+</html>
